@@ -1,0 +1,23 @@
+
+
+td {
+text-align: justify;
+margin: 1px;
+}
+
+footer{
+    background-color: transparent !important;
+}
+
+#conta , #otros{
+    text-align: center;
+}
+
+
+#imge{
+    width: 200px     !important;
+    height: 170px;
+}
+.imge{
+    border-radius: 30%;
+}
