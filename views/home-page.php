@@ -1,9 +1,7 @@
 <?php
-define('LIBRARIES_PATH', '../libraries/');
-define('CONTROLLER_PATH', '../Controller/');
+
 define('VIEWS_PATH', '../Views/');
 
-require_once(CONTROLLER_PATH . "empresa.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
