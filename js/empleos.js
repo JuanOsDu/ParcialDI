@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     var listadoEmpleos = JSON.parse(localStorage.getItem("empleos"));
     var divEmpleos = document.getElementById("empleos");
     listadoEmpleos.forEach(element => {
-        divEmpleos.innerHTML = divEmpleos.innerHTML + '<div class="card" style="width: 18rem;"><img class="card-img-top" src="'+element["imagen"]+'" alt="Card image cap"><div class="card-body"><h5 class="card-title">' + element["nombre_oferta"] + '</h5><p class="card-text">' + element["descripcion"] + '</p><p class="card-text">' + element["fecha_cierre"] + '</p><p class="card-text">' + element["correo_contacto"] + '</p></div></div>';
+        divEmpleos.innerHTML = divEmpleos.innerHTML + '<div class="emp"><div class="card" style="width: 18rem;"><img class="card-img-top" src="'+element["imagen"]+'" alt="Card image cap"><div class="card-body"><h5 class="card-title">' + element["nombre_oferta"] + '</h5><p class="card-text">' + element["descripcion"] + '</p><p class="card-text">' + element["fecha_cierre"] + '</p><p class="card-text">' + element["correo_contacto"] + '</p></div> <div class="overlay"><div class="text"><button class="btn btn-primary">Aplicar ahora</button></div></div></div></div>';
     });
 
 
